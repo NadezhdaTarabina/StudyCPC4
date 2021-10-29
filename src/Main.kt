@@ -14,10 +14,8 @@ fun main () {
        }
        while (litter[litter.lastIndex]!= lastLitter)
 
+    println(litter.slice((step-1)..litter.lastIndex step step))
 
-        for (i in 0..litter.lastIndex) {
-            if (((i + 1) % step) == 0) println(litter[i])
-        }
     }
 
     else println("The entered data is incorrect")
